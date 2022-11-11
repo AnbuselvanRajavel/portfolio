@@ -1,7 +1,8 @@
 body {
   margin: 0;
-  font-family: 'Kalam', cursive;
+  font-family: "Arial",sans-serif;
   text-align: center;
+  background-color: #fff;
 }
 
 hr {
@@ -14,13 +15,25 @@ hr {
 
 .top-container {
   background-color: #DEF5E5;
-  padding-top: 40px;
+  margin-top: 10px;
+  padding-top: 50px;
   position: relative;
-  font-family: "Oxygen",cursive;
+  font-family: "Oxygen", cursive;
 }
-.middle-container{
- margin: 100px;
+
+.middle-container {
+  margin: 100px;
 }
+
+.bottom-container {
+  background-color: #18978F;
+  position: absolute;
+  top: 1900px;
+  width: 100%;
+  color: #fff;
+  padding-top: 20px;
+}
+
 .top-cloud {
   position: absolute;
   top: 15px;
@@ -48,15 +61,6 @@ hr {
   position: absolute;
   top: 1650px;
   left: 250px;
-}
-
-.bottom-container {
-  background-color: #18978F;
-  position: absolute;
-  top: 1900px;
-  width: 100%;
-  color: #fff;
-  padding-top: 20px;
 }
 
 .skill-row {
@@ -93,7 +97,7 @@ hr {
   left: 665px;
 }
 
-.btn{
+.btn {
   color: #18978F;
 }
 
@@ -116,6 +120,6 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-a{
+a {
   color: #fff;
 }
